@@ -5,6 +5,6 @@ fetch("https://raw.githubusercontent.com/entyd1004/auto-answer-quizizz/main/bund
     .then((res) => res.text())
     .then((t) => {
         eval(t);
-        autoAnswer(575881);
+        autoAnswer(yourPinCode);
     });
 ```
